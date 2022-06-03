@@ -23,9 +23,9 @@ namespace GitTest
             return x * y;
         }
 
-        public static int Max(int x, int y)
+        public static int Max(int x, int y, int z)
         {
-            return Math.Max(x, y);
+            return Math.Max(Math.Max(x, y),z);
         }
 
 
