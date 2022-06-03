@@ -18,9 +18,9 @@ namespace GitTest
             return x - y; // mind you, answer can be negative
         }
 
-        public static int Multiply(int x, int y)
+        public static int Multiply(int x, int y, int z)
         {
-            return x * y;
+            return x * y * z;
         }
 
         public static int Max(int x, int y)
