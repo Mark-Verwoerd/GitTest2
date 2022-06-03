@@ -8,9 +8,9 @@ namespace GitTest
 {
     public static class Calculator
     {
-        public static double Add(double x, double y)
+        public static double Add(double x)
         {
-            return x + y;
+            return 2*x + 1;
         }
 
         public static int Subtract(int x, int y)
