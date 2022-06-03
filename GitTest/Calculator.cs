@@ -15,7 +15,7 @@ namespace GitTest
 
         public static int Subtract(int x, int y)
         {
-            return x - y;
+            return x - y; // answer can be negative
         }
 
 
