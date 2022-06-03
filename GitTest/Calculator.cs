@@ -23,6 +23,10 @@ namespace GitTest
             return x * y;
         }
 
+        public static int Max(int x, int y)
+        {
+            return Math.Max(x, y);
+        }
 
 
     }
