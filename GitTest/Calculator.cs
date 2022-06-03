@@ -18,6 +18,11 @@ namespace GitTest
             return x - y;
         }
 
+        public static int Multiply(int x, int y)
+        {
+            return x * y;
+        }
+
 
 
     }
